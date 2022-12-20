@@ -1,0 +1,59 @@
+﻿	<!--script type="text/javascript" src="../js/jquery.js"></script-->
+	<!--link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"-->
+	<script type="text/javascript" src="Calculator/scriptcalculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="Calculator/stylecalculator.css" />
+	<div id="cssadd"><link rel="stylesheet" type="text/css" href="Calculator/modern.css" /></div>
+	
+	<div id="body-calc"> 
+
+	<div id="calculator">
+		<div id="elselector">
+			<select id="mySelect">
+				<option id="id-cd" >  <p>Карниз </p>				 <p></p>  </option>				
+				<option id="id-cr" >  <p>Карниз закругленный</p> 	 <p></p>  </option>
+				<option id="id-md" >  <p>Молдинг</p> 		 		 <p></p>  </option>
+				<option id="id-mr" >  <p>Молдинг закругленный</p> 	 <p></p>  </option>
+				<option id="id-pd" >  <p>Плинтус</p> 				 <p></p>  </option>
+				<option id="id-pr" >  <p>Плинтус закругленный</p> 	 <p></p>  </option>
+				<option id="id-ro" >  <p>Розетка потолочная</p> 	 <p></p>  </option>
+				<option id="id-pld" > <p>Пилястра</p> 				 <p></p>  </option>
+				<option id="id-plr" > <p>Полуколонна круглая</p>     <p></p>  </option>
+				<option id="id-clr" > <p>Колонна круглая</p>	     <p></p>  </option>
+				<option id="id-clp" > <p>Колонна квадратная</p> 	 <p></p>  </option>
+			</select>
+		</div>
+		<div class="alldates">		<!--hr/-->	
+			<label> <div class="div-date foc data1"> <b>(h)</b> высота - <i>cm</i>  <input type="number" id="nrh"  class="myInput" /> </div> </label> 
+			<label> <div class="div-date foc data2"> <b>(l)</b> ширина - <i>cm</i> 	  <input type="number" id="nrl"  class="myInput" /> </div> </label> 
+			<label> <div class="div-date foc data3"> <b>(L)</b> длина - <i>m</i>		  <input type="number" id="nrlm" class="myInput" /> </div> </label> 
+			<label> <div class="div-date foc data4"> <b>(r)</b> радиус - <i>cm</i> 		  <input type="number" id="nrr"  class="myInput" /> </div> </label> 
+			<label> <div class="div-date foc data5"> количество - <i>номер</i> 			  <input type="number" id="nre"  class="myInput" /> </div> </label> 
+					<div class="div-date foc data6"> <label> Изготовление <input type="checkbox" checked="checked" onclick="return false" /> </label> <label> Установка <input id="mont" type="checkbox" checked="checked" /> </label>	</div>
+		</div>	
+		<div class="alldates" style="border-top: 1px solid #999;">		
+					<div class="div-date price"><b> цена - €  	 			  <span id="nprice" class="myInput"> 1 </span>  </b></div> 	
+		</div>
+		<div id="div-img"> </div> 
+		<div id="buttons">		
+			<button class="cButtons" id="clearAll">  <img src="css/bin1.png"/> </button>
+			<button class="cButtons" id="addElement" > 	<img src="css/new1.png"/> </button>
+				<div id="style-boxes">
+					Theme: 
+					<label class="style-box">				   <input type="radio" name="qwqw" value="1" checked >	modern			</label>
+					<label class="style-box">				   <input type="radio" name="qwqw" value="2">	classic			</label>
+				</div>
+		</div>	
+			<div id="save-form">
+				<div class="cborder"> <div id="text-area"> <textarea style="color: #777"> дополнительная информация .. </textarea> </div> </div>
+				<div id="korzina"></div>	
+				<div class="cborder"> 
+					<div id="totalpriceru"> 
+						<p> Узнай общую сумму для изготовление и монтаж гипсовых изделий. <br/><br/> Art - Lux company © </p>
+					</div> 
+				</div>
+			</div>
+		<button class="cButtons" id="screenshot" title="Dacă acest buton nu funcționeaza de pe dispozitivul dvs. puteți salva rezultatul făcînd ”ScreenShot” la ecran"> Сохранить список (.png) <img src="css/dow.png"/> </button>	
+	</div>
+	
+	</div>		
+
